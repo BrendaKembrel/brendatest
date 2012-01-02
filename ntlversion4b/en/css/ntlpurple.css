@@ -1,0 +1,397 @@
+/*This is just the reset to have all the browsers behave the same way (as if IE will listen to it...) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*Here are our Universal CSS calls... certain things will just stay consistent no matter what! */
+
+body{
+	text-align:center;
+	font-family:verdana,sans-serif;
+	background-image: url("../images/new-ntl-background-march-2011-2.jpg");
+}
+
+#sitewrapper {
+	width:1000px;
+	margin:0 auto;
+	text-align:left;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	background-color:white;
+}
+
+#siteheader{
+}
+#sitebody{
+}
+#sitefooter{
+}
+#sitelogodiv{
+	float:left;
+	margin:6px 15px 3px 6px;
+}
+#sitepromodiv{
+	float:left;
+	margin:6px 0 3px 6px;
+	width:335px;
+}
+#siteloginandsearchdiv{
+	float:left;
+	margin:6px 0 3px 22px;
+}
+#sitelogindiv{
+	min-height:66px;
+	width:100%;
+}
+#sitesearchdiv{
+}
+#sitebagdiv{
+	float:right;
+	margin:6px 6px 3px 6px;
+}
+#sitesearchcontainer{
+	text-align:right;
+}
+#siterefinementcol{
+float:left;
+width:236px;
+margin:3px 0 0 3px;
+border:1px solid black;
+}
+#siterightcol{
+float:right;
+width:717px;
+margin:3px 20px 0 0;
+border:1px solid black;
+}
+.sitemenufooter{
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	background-color:#E3A4DC;
+	margin-top:10px;
+}
+.sitemenufooterinside{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	background-color:white;
+	margin:3px 0 3px 0;
+}
+.sitetopmenuwrapper{
+	margin:1px 0 1px 0;
+}
+.sitefooterwrapper{
+	margin:1px 0 1px 0;
+	width:100%;
+	text-align:center;
+}
+.sitewelcomemsg{
+font-size:12px;
+text-align:right;
+width:100%;
+}
+.sitesignin{
+font-size:12px;
+color:#692260;
+font-weight:bold;
+text-decoration:none;
+}
+.sitesearchbar{
+margin-top:1px;
+margin-left:1px;
+font-size:20px;
+width:225px;
+vertical-align:top;
+border:none;
+background-color:#F4DDF2;
+text-align:left;
+}
+.siteuseroptions{
+font-size:10px;
+text-align:right;
+margin-top:8px;
+width:100%;
+}
+.siteoptionlinks{
+color:#692260;
+font-weight:bold;
+text-decoration:none;
+}
+.siterewards{
+font-size:12px;
+text-align:right;
+margin-top:8px;
+width:100%;
+}
+.sitetopmenuelement{
+margin:0 6px 0 2px;
+font-family:"Palatino Linotype",georgia,serif;
+font-size:16px;
+font-weight:bold;
+text-decoration:none;
+color:#692260;
+}
+.sitefont14px{
+font-size:14px;
+}
+.sitefont14pxb{
+font-size:14px;
+font-weight:bold;
+}
+.sitefont16px{
+font-size:16px;
+}
+.sitefont16pxb{
+font-size:16px;
+font-weight:bold;
+}
+.sitefont18px{
+font-size:18px;
+}
+.sitefont18pxb{
+font-size:18px;
+font-weight:bold;
+}
+.sitefont20px{
+font-size:20px;
+}
+.sitefont20pxb{
+font-size:20px;
+font-weight:bold;
+}
+.sitefont22px{
+font-size:22px;
+}
+.sitefont22pxb{
+font-size:22px;
+font-weight:bold;
+}
+.sitefont24px{
+font-size:26px;
+}
+.sitefont24pxb{
+font-size:26px;
+font-weight:bold;
+}
+.sitebasiclink{
+color:#692260;
+text-decoration:none;
+}
+.siteboldlink{
+font-weight:bold;
+color:#692260;
+text-decoration:none;
+}
+.sitecenter{
+width:100%;
+text-align:center;
+}
+#collectiondescriptiondiv{
+width:650px;
+float:left;
+margin:3px 0 8px 28px;
+}
+#collectionmagazinediv{
+width:280px;
+float:right;
+margin:3px 8px 8px 3px;
+}
+.collectionheader{
+font-family:"Palatino Linotype",georgia,serif;
+font-size:24px;
+font-weight:bold;
+}
+.collectionsectionheadertext{
+font-family:"Palatino Linotype",georgia,serif;
+font-size:24px;
+font-weight:bold;
+margin-left:28px;
+}
+.collectiondescription{
+font-size:12px;
+margin: 5px 0 0 0;
+line-height:135%;
+}
+.collectionsectionheader{
+background-image: url("../images/headerbg.png");
+background-color:#692260;
+width:972px;
+min-height:37px;
+}
+.collectionitemcontainer{
+margin:3px 0 15px 26px;
+float:left;
+width:168px;
+}
+.collectionproductname{
+font-size:11px;
+text-decoration:none;
+color:#692260;
+}
+.collectionregprice{
+color:black;
+font-size:11px;
+text-decoration:none;
+}
+.collectionsaleprice{
+color:red;
+font-size:11px;
+text-decoration:none;
+font-weight:bold;
+}
+.collectionyousave{
+color:black;
+font-size:11px;
+text-decoration:none;
+}
+.collectionpromo{
+font-size:11px;
+text-decoration:none;
+color:#692260;
+font-weight:bold;
+}
+.collectionbagoverlay{
+float:left;
+width:0%;
+position:relative;
+z-index:100;
+top:-27px;
+left:56px;
+}
+.collectionpackagedealtext{
+font-size:16px;
+margin:4px 0 4px 28px;
+}
+.collectionpackagecontainer{
+width:466px;
+margin:4px 0 8px 28px;
+float:left;
+}
+.collectionpackageinfocontainer{
+width:300px;
+min-height:174px;
+float:right;
+border:1px solid black;
+background-color:#F4DDF2;
+margin:4px 4px 8px 0;
+background-image: url("../images/packagedealsbgbottom.png");
+background-position:bottom;
+background-repeat:no-repeat;
+}
+.collectionpackagepricecontainer{
+width:166px;
+min-height:174px;
+float:right;
+border:1px solid black;
+background:#F4DDF2;
+margin:4px 28px 8px 0;
+}
+.collectionplusitemspackage{
+width:80px;
+float:right;
+text-align:center;
+margin-top:51px;
+}
+.collection3plusitemscontainer{
+float:left;
+}
+.collectionredplus{
+font-size:24px;
+color:red;
+font-weight:bold;
+}
+.collectionredandbold{
+color:red;
+font-weight:bold;
+}
+.collectionpackageproductname{
+font-family:"Palatino Linotype",georgia,serif;
+font-size:16px;
+font-weight:bold;
+margin:1px 0 3px 3px;
+}
+.collectionpackageproductnamered{
+font-family:"Palatino Linotype",georgia,serif;
+font-size:16px;
+font-weight:bold;
+margin:1px 0 3px 3px;
+color:red;
+}
+.collectionpackagereg{
+font-size:14px;
+margin:1px 0 3px 30px;
+}
+.collectionpackagesale{
+font-size:14px;
+margin:1px 0 3px 30px;
+color:red;
+}
+.collectionadditionalitems{
+float:left;
+margin:13px 0 7px 6px;
+}
+.collectionseedetails{
+float:right;
+margin:13px 6px 7px 0;
+}
+.collectionseedetails2item{
+float:right;
+margin:58px 6px 7px 0;
+}
+.collectionseedetails1item{
+float:right;
+margin:102px 6px 7px 0;
+}
+.collectioncenter100atb{
+width:100%;
+margin-top:10px;
+text-align:center;
+}
+.collection2minusitemscontainer{
+width:425px;
+float:left;
+text-align:center;
+}
+.collectionrelatedarticles{
+font-size:12px;
+margin:7px 0 7px 0;
+}
+.collectionblogtitle{
+font-size:20px;
+font-weight:bold;
+font-family:"Palatino Linotype",georgia,serif;
+color:#692260;
+text-decoration:none;
+}
+.collection3colleft{
+float:left;
+margin:3px 3px 3px 28px;
+width:300px;
+}
+.collection3colmiddle{
+float:left;
+margin:3px 3px 3px 22px;
+width:300px;
+}
+.collection3colright{
+float:right;
+margin:3px 28px 3px 3px;
+width:300px
+}
